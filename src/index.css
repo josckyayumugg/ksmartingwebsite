@@ -1,0 +1,357 @@
+@import "tailwindcss";
+
+/* Optional: lets you use these colors as Tailwind classes (bg-brand-yellow, etc.) */
+@theme {
+  --color-brand-black: #0a0a0a;
+  --color-brand-yellow: #ffd400;
+  --color-brand-gold: #b8923a;
+  --color-brand-paper: #f6f5f0;
+}
+
+@layer base {
+  :root {
+    --black: #0a0a0a;
+    --ink: #141414;
+    --yellow: #ffd400;
+    --white: #fff;
+    --paper: #f6f5f0;
+    --gold: #b8923a;
+    --muted: #5b5b5b;
+    --line: #e2e0d8;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 70px);
+  }
+
+  body {
+    margin: 0;
+    background: var(--white);
+    color: var(--ink);
+    font:
+      400 17px/1.6 Inter,
+      system-ui,
+      -apple-system,
+      "Segoe UI",
+      sans-serif;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: Archivo, "Arial Narrow", Arial, sans-serif;
+    margin: 0;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+  }
+  h1 {
+    font-weight: 900;
+    font-stretch: 112%;
+    font-size: clamp(2.5rem, 7.5vw, 5rem);
+  }
+  h2 {
+    font-weight: 800;
+    font-size: clamp(1.8rem, 4.5vw, 2.7rem);
+    margin-bottom: 0.6rem;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
+  p {
+    margin: 0 0 1rem;
+    max-width: 64ch;
+  }
+  a {
+    color: inherit;
+  }
+  :focus-visible {
+    outline: 3px solid var(--yellow);
+    outline-offset: 3px;
+  }
+
+  header {
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 5;
+    background: var(--black);
+    color: var(--white);
+    border-bottom: 2px solid var(--yellow);
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    height: 60px;
+  }
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.93rem;
+    font-weight: 500;
+    overflow-x: auto;
+  }
+  nav ul a {
+    text-decoration: none;
+    color: #cfcfcf;
+    white-space: nowrap;
+  }
+  nav ul a:hover {
+    color: var(--yellow);
+  }
+
+  section {
+    padding: 72px 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    margin: 14px 0 1rem;
+  }
+  th,
+  td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th {
+    font-weight: 600;
+    background: var(--black);
+    color: var(--yellow);
+  }
+
+  footer {
+    background: var(--black);
+    color: #bdbdbd;
+    padding: 34px 0;
+    font-size: 0.92rem;
+  }
+  footer .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  footer a {
+    color: var(--yellow);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer components {
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 22px;
+  }
+
+  .logo {
+    font:
+      900 1.2rem Archivo,
+      Arial,
+      sans-serif;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo i {
+    width: 26px;
+    height: 10px;
+    background: var(--yellow);
+    border-radius: 2px;
+    display: inline-block;
+  }
+
+  .btn {
+    display: inline-block;
+    background: var(--yellow);
+    color: var(--black);
+    font-weight: 600;
+    padding: 13px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid var(--yellow);
+  }
+  .btn.alt {
+    background: transparent;
+    color: inherit;
+    border-color: currentColor;
+  }
+  .btn.dark {
+    background: var(--black);
+    color: var(--yellow);
+    border-color: var(--black);
+  }
+
+  .hero {
+    background: var(--black);
+    color: var(--white);
+    padding: 70px 0 0;
+  }
+  .hero p.lead {
+    font-size: 1.15rem;
+    color: #d6d6d6;
+    margin-top: 22px;
+  }
+  .hero .cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 28px 0 56px;
+  }
+
+  .split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .split div {
+    padding: 26px 22px;
+  }
+  .split .need {
+    background: var(--yellow);
+    color: var(--black);
+  }
+  .split .have {
+    background: #1b1b1b;
+    color: var(--white);
+    border-top: 3px solid var(--gold);
+  }
+  .split h3 {
+    font-size: 1.5rem;
+  }
+  .split p {
+    margin: 0;
+    font-size: 0.98rem;
+  }
+  @media (max-width: 600px) {
+    .split {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .paper {
+    background: var(--paper);
+  }
+  .dark {
+    background: var(--black);
+    color: var(--white);
+  }
+
+  /* renamed from .grid, which clashes with Tailwind's own "grid" class */
+  .cards {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 28px;
+  }
+  .card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--yellow);
+    border-radius: 8px;
+    padding: 22px;
+  }
+  .card p {
+    color: var(--muted);
+    margin: 0;
+    font-size: 0.97rem;
+  }
+
+  .flow {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: grid;
+    gap: 14px;
+    counter-reset: s;
+  }
+  .flow li {
+    counter-increment: s;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 14px;
+  }
+  .flow li:before {
+    content: counter(s);
+    font:
+      800 1.05rem Archivo,
+      sans-serif;
+    background: var(--black);
+    color: var(--yellow);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  .flow b {
+    display: block;
+  }
+  .flow span {
+    color: var(--muted);
+  }
+
+  .cols {
+    display: grid;
+    gap: 36px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-top: 28px;
+  }
+  .rule {
+    width: 56px;
+    height: 3px;
+    background: var(--gold);
+    border: 0;
+    margin: 0 0 18px;
+  }
+  .tw {
+    overflow-x: auto;
+  }
+
+  .del {
+    max-width: 760px;
+  }
+  .del h3 {
+    margin-top: 30px;
+  }
+  /* Tailwind's reset removes list markers, so add them back */
+  .del ul {
+    list-style: disc;
+    padding-left: 1.2rem;
+    margin: 0 0 1rem;
+  }
+  .del ol {
+    list-style: decimal;
+    padding-left: 1.2rem;
+    margin: 0 0 1rem;
+  }
+  .del li {
+    margin-bottom: 0.4rem;
+  }
+
+  .note {
+    border-left: 4px solid var(--yellow);
+    background: var(--white);
+    padding: 14px 18px;
+    border-radius: 0 8px 8px 0;
+    margin: 20px 0;
+  }
+}
