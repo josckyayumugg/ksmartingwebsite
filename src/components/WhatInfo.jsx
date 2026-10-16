@@ -1,47 +1,43 @@
+import { useTranslation } from "react-i18next";
+
 export default function WhatInfo() {
+  const { t } = useTranslation();
   return (
     <section id="data" class="dark">
       <div class="wrap">
         <hr class="rule" />
-        <h2>What information goes into the system</h2>
-        <p>
-          To match requests with listings, the app collects the details below.
-          This is what each side provides and who can see it.
-        </p>
+        <h2>{t("data.title")}</h2>
+        <p>{t("data.intro")}</p>
         <div class="tw">
           <table>
             <thead>
               <tr>
-                <th>Who</th>
-                <th>Information</th>
-                <th>Who sees it</th>
+                <th>{t("data.headers.0")}</th>
+                <th>{t("data.headers.1")}</th>
+                <th>{t("data.headers.2")}</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Buyer (request)</td>
-                <td>
-                  Part wanted, car make, model and year, notes, area, phone
-                  number
-                </td>
-                <td>Sellers who reply</td>
+                <td>{t("data.rows.0.0")}</td>
+                <td>{t("data.rows.0.1")}</td>
+                <td>{t("data.rows.0.2")}</td>
               </tr>
               <tr>
-                <td>Seller (listing)</td>
-                <td>Part name, photos, condition, price, area, phone number</td>
-                <td>All app users</td>
+                <td>{t("data.rows.1.0")}</td>
+                <td>{t("data.rows.1.1")}</td>
+                <td>{t("data.rows.1.2")}</td>
               </tr>
               <tr>
-                <td>Everyone</td>
-                <td>Name, email, password and account settings</td>
-                <td>Only you and Ksmarting Auto</td>
+                <td>{t("data.rows.2.0")}</td>
+                <td>{t("data.rows.2.1")}</td>
+                <td>{t("data.rows.2.2")}</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p>
-          Requests and listings are matched by part name and car details, so the
-          more complete they are, the faster you get a match.
+         {t("data.outro")}
         </p>
       </div>
     </section>

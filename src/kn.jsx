@@ -1,0 +1,298 @@
+// Kinyarwanda version. Same keys and array lengths as en.js.
+// {email} and {link} are placeholders, replace them in the component.
+// Lines marked "CHECK" are words or phrases to confirm with a native speaker.
+export default  {
+  meta: {
+    title: "Ksmarting Auto | Shaka kandi ugurishe ibyuma by'imodoka", // CHECK: "ibyuma by'imodoka"
+  },
+  brand: "Ksmarting Auto",
+
+  nav: {
+    how: "Uko bikora",
+    data: "Amakuru yawe",
+    contact: "Twandikire",
+    privacy: "Politiki y'ubuzima bwite", // CHECK: or "Politiki y'ibanga"
+    delete: "Siba konti",
+  },
+
+  hero: {
+    title: "Ukeneye igice cy'imodoka? Ufite icyo ugurisha?",
+    lead: "Ksmarting Auto ihuza abashaka ibyuma by'imodoka n'ababifite. Ohereza icyifuzo cyangwa utange ibyawe ugurishe, maze uhuzwe.",
+    getApp: "Fata porogaramu",
+    seeHow: "Reba uko bikora",
+    needTitle: "Nkeneye igice",
+    needText:
+      "Ohereza icyifuzo kigaragaza imodoka yawe n'igice ushaka. Abafite icyo gice bazakwandikira.",
+    haveTitle: "Mfite ibice",
+    haveText:
+      "Shyiraho ibyo ufite hamwe n'amafoto n'igiciro. Abaguzi babishaka bazakubona.",
+    imgSearchAlt: "Urupapuro rwo gushakisha muri porogaramu ya Ksmarting Auto",
+    imgProductAlt: "Urupapuro rw'igicuruzwa muri porogaramu ya Ksmarting Auto",
+    imgOptionsAlt: "Urupapuro rw'amahitamo muri porogaramu ya Ksmarting Auto",
+  },
+
+  how: {
+    title: "Uko bikora",
+    groups: [
+      {
+        title: "Niba ukeneye igice",
+        steps: [
+          {
+            title: "Ohereza icyifuzo",
+            text: "Vuga igice ukeneye, n'ubwoko, moderi n'umwaka w'imodoka yawe.",
+          },
+          {
+            title: "Wakire ibisubizo",
+            text: "Abacuruzi bafite igice gihuye bakohereza ibyo batanga.",
+          },
+          {
+            title: "Mwumvikane ugifate",
+            text: "Muganire, mwemeranye ku giciro, mutegure uko ugifata cyangwa uko kikugezwaho.",
+          },
+        ],
+      },
+      {
+        title: "Niba ufite ibice",
+        steps: [
+          {
+            title: "Shyiraho igicuruzwa",
+            text: "Shyiraho amafoto, uko kimeze, igiciro n'aho kiri.",
+          },
+          {
+            title: "Uhuzwe n'abakikeneye",
+            text: "Igicuruzwa cyawe kigaragarira abagishakisha cyangwa abakoze icyifuzo kigihuye.",
+          },
+          {
+            title: "Gurisha",
+            text: "Subiza abaguzi musoze ubucuruzi.",
+          },
+        ],
+      },
+    ],
+  },
+
+  features: {
+    title: "Yakorewe ibice ukeneye koko",
+    items: [
+      {
+        title: "Ibyifuzo by'ibice",
+        text: "Saba neza icyo ukeneye, n'iyo nta wari wakigaragaza.",
+      },
+      {
+        title: "Ibicuruzwa by'abacuruzi",
+        text: "Shyiraho ibice byakoreshejwe cyangwa bishya ugere ku baguzi udafite iduka.",
+      },
+      {
+        title: "Shakisha ukurikije imodoka",
+        text: "Yungurura ukurikije ubwoko, moderi n'umwaka ubone ibice bihuye.",
+      },
+      {
+        title: "Itumanaho ritaziguye",
+        text: "Abaguzi n'abacuruzi baravugana bakumvikana ubwabo ku masezerano.",
+      },
+    ],
+  },
+
+  data: {
+    title: "Amakuru ashyirwa muri sisitemu",
+    intro:
+      "Kugira ngo ibyifuzo bihuzwe n'ibicuruzwa, porogaramu ikusanya amakuru ari hasi aha. Dore icyo buri ruhande rutanga n'ababasha kukibona.",
+    headers: ["Uwo ari we", "Amakuru", "Ababibona"],
+    rows: [
+      [
+        "Umuguzi (icyifuzo)",
+        "Igice gishakwa, ubwoko, moderi n'umwaka w'imodoka, ibisobanuro, aho uri, numero ya telefoni",
+        "Abacuruzi basubiza",
+      ],
+      [
+        "Umucuruzi (igicuruzwa)",
+        "Izina ry'igice, amafoto, uko kimeze, igiciro, aho kiri, numero ya telefoni",
+        "Abakoresha porogaramu bose",
+      ],
+      [
+        "Buri wese",
+        "Izina, imeri, ijambobanga n'igenamiterere rya konti",
+        "Wowe na Ksmarting Auto gusa",
+      ],
+    ],
+    outro:
+      "Ibyifuzo n'ibicuruzwa bihuzwa hakurikijwe izina ry'igice n'amakuru y'imodoka, bityo uko birushaho kuzura, ni ko urushaho kubona igihuye vuba.",
+  },
+
+  contact: {
+    title: "Twandikire",
+    text: "Ufite ikibazo, igitekerezo cyangwa ikibazo ku gicuruzwa? Twohereze imeri.",
+  },
+
+  deleteAccount: {
+    title: "Siba konti yawe ya Ksmarting Auto",
+    intro:
+      "Ushobora kudusaba gusiba konti yawe n'amakuru yawe bwite igihe cyose. Ohereza icyifuzo cyawe kuri {email}.",
+    requirementsTitle: "Ibisabwa",
+    requirements: [
+      "Ohereza icyifuzo ukoresheje imeri ihujwe na konti yawe, cyangwa utubwire numero ya telefoni wiyandikishijeho kugira ngo tumenye ko ari wowe.",
+      'Koresha umutwe w\'ubutumwa "Siba konti yanjye" kandi ushyiremo amazina yawe yose.',
+      "Siba cyangwa urangize ibyifuzo n'ibicuruzwa byawe bikiri ku murongo, cyangwa utubwire tubigusibire.",
+      "Rangiza ubucuruzi ubwo ari bwo bwose urimo n'undi mukoresha.",
+      "Wumve ko gusiba konti bidasubirwaho.",
+    ],
+    howTitle: "Uko wasaba gusiba konti",
+    howSteps: [
+      "Kanda ku mwanya uri hasi, cyangwa wohereze imeri kuri {email}.",
+      "Uzuza izina ryawe, numero ya telefoni na imeri ya konti, hanyuma wohereze.",
+      "Turagusubiza kugira ngo tubyemeze ko ari wowe, hanyuma dusibe konti.",
+    ],
+    button: "Ohereza icyifuzo cyo gusiba konti",
+    mailSubject: "Siba konti yanjye",
+    mailBody:
+      "Amazina yose:\nNumero ya telefoni:\nImeri ya konti:\n\nNemeje ko nshaka ko konti yanjye ya Ksmarting Auto n'amakuru yanjye bwite bisibwa.",
+    dataTitle: "Ibigenda ku makuru yawe",
+    dataHeaders: ["Amakuru", "Icyo dukora"],
+    dataRows: [
+      ["Umwirondoro: izina, imeri, telefoni", "Birasibwa"],
+      ["Ibyifuzo n'ibicuruzwa byawe, harimo amafoto", "Birasibwa"],
+      ["Ubutumwa n'amakuru y'itumanaho wasangije", "Birasibwa"],
+      [
+        "Inyandiko z'umutekano no gukumira ikoreshwa nabi",
+        "Zibikwa igihe kitarenze iminsi 90, hanyuma zigasibwa",
+      ],
+      [
+        "Inyandiko tugomba kubika bitewe n'amategeko, niba zihari",
+        "Zibikwa gusa igihe amategeko abisaba",
+      ],
+    ],
+    timeTitle: "Igihe bifata",
+    timeText:
+      "Twemeza icyifuzo cyawe mu minsi 3 y'akazi, tukarangiza gusiba mu minsi 30. Tukwandikira imeri turangije.",
+    noteBold: "Urashaka kuruhuka gusa?",
+    noteText:
+      "Dusabe guhagarika konti yawe by'agateganyo. Amakuru yawe azaguma aho kugeza ugarutse.", // CHECK: "by'agateganyo" for "deactivate"
+  },
+
+  privacy: {
+    title: "Politiki y'ubuzima bwite", // CHECK
+    effective:
+      "Itariki itangiriraho gukurikizwa: 30 Nzeri 2026. Iyi politiki isobanura amakuru porogaramu ya Ksmarting Auto n'uru rubuga bikusanya, uko tuyakoresha n'amahitamo ufite. Ukoresheje Ksmarting Auto, uba wemeye iyi politiki.",
+    deleteLinkText: "igice cyo gusiba konti",
+    sections: [
+      {
+        title: "Abo turi bo",
+        paragraphs: [
+          "Ksmarting Auto ni porogaramu ihuza abakeneye ibyuma by'imodoka n'ababifite. Ushobora kutwandikira kuri {email}.",
+        ],
+      },
+      {
+        title: "Amakuru dukusanya",
+        items: [
+          {
+            label: "Amakuru ya konti:",
+            text: "izina ryawe, imeri, numero ya telefoni n'ijambobanga (bibitswe mu buryo burinzwe).",
+          },
+          {
+            label: "Ibyifuzo n'ibicuruzwa:",
+            text: "igice ushaka cyangwa ugurisha, ubwoko, moderi n'umwaka w'imodoka, uko kimeze, igiciro, ibisobanuro, aho ushyiraho, n'amafoto wohereza.",
+          },
+          {
+            label: "Ubutumwa:",
+            text: "ibyo wohereza abandi bakoresha binyuze muri porogaramu.",
+          },
+          {
+            label: "Amakuru ya telefoni n'imikoreshereze:",
+            text: "ubwoko bwa telefoni, verisiyo ya porogaramu n'inyandiko z'amakosa, bikoreshwa kugira ngo porogaramu ikomeze gukora kandi irinzwe.",
+          },
+        ],
+        after: [
+          "Ntidukusanya amakuru ya karita yo kwishyura muri porogaramu. Abaguzi n'abacuruzi bumvikana ku kwishyura hagati yabo.",
+        ],
+      },
+      {
+        title: "Uruhushya porogaramu isaba", // CHECK
+        items: [
+          {
+            label: "Kamera n'amafoto:",
+            text: "bigamije kukwemerera gushyiraho amafoto ku gicuruzwa cyangwa ku cyifuzo gusa.",
+          },
+          {
+            label: "Ibimenyeshwa:",
+            text: "bigamije kukumenyesha ibisubizo n'ibihuje gusa. Ushobora kubihagarika mu igenamiterere rya telefoni yawe.",
+          },
+        ],
+      },
+      {
+        title: "Uko dukoresha amakuru yawe",
+        items: [
+          { text: "Gushyiraho no gucunga konti yawe." },
+          {
+            text: "Guhuza ibyifuzo n'ibicuruzwa no guhuza abaguzi n'abacuruzi.",
+          },
+          {
+            text: "Kukoherereza ibisubizo, ibihuje n'ubutumwa bw'ingenzi bwa serivisi.",
+          },
+          {
+            text: "Gukumira uburiganya n'ikoreshwa nabi, no gukemura ibibazo.",
+          },
+          { text: "Gukurikiza amategeko igihe bibaye ngombwa." },
+        ],
+      },
+      {
+        title: "Ababona amakuru yawe",
+        items: [
+          {
+            text: "Abandi bakoresha: ibicuruzwa, harimo amafoto, igiciro, aho biri n'amakuru y'itumanaho wahisemo kugaragaza, biboneka ku bakoresha porogaramu. Ibyifuzo biboneka ku bacuruzi basubiza gusa.",
+          },
+          {
+            text: "Ibigo bitanga serivisi bibika amakuru yacu bikanadufasha gukoresha porogaramu. Bishobora kuyakoresha gusa mu kudutangira serivisi.",
+          },
+          { text: "Inzego z'ubutegetsi, igihe amategeko abitegetse." },
+        ],
+        after: ["Ntitugurisha amakuru yawe bwite."],
+      },
+      {
+        title: "Igihe tuyabika",
+        paragraphs: [
+          "Tubika amakuru yawe igihe konti yawe ikora. Iyo usibye konti, dusiba amakuru yawe nk'uko bisobanurwa mu {link}, uretse inyandiko tugomba kubika bitewe n'amategeko.",
+        ],
+      },
+      {
+        title: "Amahitamo yawe",
+        items: [
+          {
+            text: "Ushobora kureba no guhindura amakuru yawe n'ibicuruzwa byawe muri porogaramu.",
+          },
+          {
+            text: "Ushobora gusiba icyifuzo cyangwa igicuruzwa icyo ari cyo cyose igihe cyose.",
+          },
+          {
+            text: "Ushobora gusaba kopi y'amakuru yawe cyangwa kudusaba gusiba konti yawe wandikira {email}.",
+          },
+        ],
+      },
+      {
+        title: "Umutekano",
+        paragraphs: [
+          "Dukoresha ingamba za tekiniki zikwiye mu kurinda amakuru yawe. Nta sisitemu irinzwe ijana ku ijana, bityo koresha ijambobanga rikomeye kandi ntukarisangize abandi. Huzira n'abandi bakoresha ahantu hizewe kandi usuzume ibice mbere yo kwishyura.",
+        ],
+      },
+      {
+        title: "Abana",
+        paragraphs: [
+          "Ksmarting Auto ntigenewe abana bari munsi y'imyaka 18, kandi ntidukusanya amakuru yabo tubizi. Niba utekereza ko umwana yaduhaye amakuru, twandikire tuyasibe.",
+        ],
+      },
+      {
+        title: "Impinduka kuri iyi politiki",
+        paragraphs: [
+          "Dushobora kuvugurura iyi politiki. Tuzahindura itariki iri hejuru kandi, ku mpinduka zikomeye, tubikumenyeshe muri porogaramu.",
+        ],
+      },
+      {
+        title: "Twandikire",
+        paragraphs: ["Ufite ibibazo ku buzima bwite? Wandikire kuri {email}."],
+      },
+    ],
+  },
+
+  footer: {
+    copyright: "© 2026 Ksmarting Auto",
+  },
+};

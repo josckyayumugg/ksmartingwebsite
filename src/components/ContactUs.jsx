@@ -1,11 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 export default function ContactUs() {
+  const { t } = useTranslation();
   return (
     <section id="contact">
       <div class="wrap">
-        <h2>Contact us</h2>
-        <p>
-          Questions, feedback or a problem with a listing? Send us an email.
-        </p>
+        <h2>{t("contact.title")}</h2>
+        <p>{t("contact.text")}</p>
         <p>
           <a class="btn dark" href="mailto:ksmartingauto@gmail.com">
             ksmartingauto@gmail.com

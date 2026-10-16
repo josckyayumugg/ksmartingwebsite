@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "title": "Find and sell car spare parts"
+  },
+  "brand": "Ksmarting Auto",
+
+  "nav": {
+    "how": "How it works",
+    "data": "Your information",
+    "contact": "Contact",
+    "privacy": "Privacy policy",
+    "delete": "Delete account"
+  },
+
+  "hero": {
+    "title": "Need a car part? Got one to sell?",
+    "lead": "Ksmarting Auto connects people who are looking for spare parts with people who have them. Post a request or list your own parts, and get matched.",
+    "getApp": "Get the app",
+    "seeHow": "See how it works",
+    "needTitle": "I need a part",
+    "needText": "Post a request with your car and the part you want. Sellers who have it get in touch.",
+    "haveTitle": "I have parts",
+    "haveText": "List what you have with photos and a price. Buyers looking for it find you.",
+    "imgSearchAlt": "Search screen of the Ksmarting Auto app",
+    "imgProductAlt": "Product page in the Ksmarting Auto app",
+    "imgOptionsAlt": "Options screen in the Ksmarting Auto app"
+  },
+
+  "how": {
+    "title": "How it works",
+    "groups": [
+      {
+        "title": "If you need a part",
+        "steps": [
+          {
+            "title": "Post a request",
+            "text": "Say which part, and your car's make, model and year."
+          },
+          {
+            "title": "Get responses",
+            "text": "Sellers with a matching part send you their offer."
+          },
+          {
+            "title": "Agree and collect",
+            "text": "Chat, confirm the price and arrange pickup or delivery."
+          }
+        ]
+      },
+      {
+        "title": "If you have parts",
+        "steps": [
+          {
+            "title": "List your product",
+            "text": "Add photos, condition, price and location."
+          },
+          {
+            "title": "Get matched",
+            "text": "Your listing shows up for people searching or requesting it."
+          },
+          {
+            "title": "Sell",
+            "text": "Reply to buyers and close the deal."
+          }
+        ]
+      }
+    ]
+  },
+
+  "features": {
+    "title": "Made for the parts you actually need",
+    "items": [
+      {
+        "title": "Part requests",
+        "text": "Ask for exactly what you need, even when no one has listed it yet."
+      },
+      {
+        "title": "Seller listings",
+        "text": "Post used or new parts and reach buyers without a shop."
+      },
+      {
+        "title": "Search by car",
+        "text": "Filter by make, model and year to find parts that fit."
+      },
+      {
+        "title": "Direct contact",
+        "text": "Buyers and sellers talk to each other and agree the terms themselves."
+      }
+    ]
+  },
+
+  "data": {
+    "title": "What information goes into the system",
+    "intro": "To match requests with listings, the app collects the details below. This is what each side provides and who can see it.",
+    "headers": ["Who", "Information", "Who sees it"],
+    "rows": [
+      [
+        "Buyer (request)",
+        "Part wanted, car make, model and year, notes, area, phone number",
+        "Sellers who reply"
+      ],
+      [
+        "Seller (listing)",
+        "Part name, photos, condition, price, area, phone number",
+        "All app users"
+      ],
+      [
+        "Everyone",
+        "Name, email, password and account settings",
+        "Only you and Ksmarting Auto"
+      ]
+    ],
+    "outro": "Requests and listings are matched by part name and car details, so the more complete they are, the faster you get a match."
+  },
+
+  "contact": {
+    "title": "Contact us",
+    "text": "Questions, feedback or a problem with a listing? Send us an email."
+  },
+
+  "deleteAccount": {
+    "title": "Delete your Ksmarting Auto account",
+    "intro": "You can ask us to delete your account and personal data at any time. Send your request to {email}.",
+    "requirementsTitle": "Requirements",
+    "requirements": [
+      "Send the request from the email address linked to your account, or include your registered phone number so we can confirm it is you.",
+      "Use the subject \"Delete my account\" and include your full name.",
+      "Remove or complete any open part requests and listings, or tell us to remove them for you.",
+      "Settle any deal you have in progress with another user.",
+      "Understand that deletion cannot be undone."
+    ],
+    "howTitle": "How to request deletion",
+    "howSteps": [
+      "Click the button below, or email {email}.",
+      "Fill in your name, phone number and account email, then send.",
+      "We reply to confirm it is you, then delete the account."
+    ],
+    "button": "Email a deletion request",
+    "mailSubject": "Delete my account",
+    "mailBody": "Full name:\nPhone number:\nAccount email:\n\nI confirm I want my Ksmarting Auto account and personal data deleted.",
+    "dataTitle": "What happens to your data",
+    "dataHeaders": ["Data", "What we do"],
+    "dataRows": [
+      ["Profile: name, email, phone", "Deleted"],
+      ["Your part requests and product listings, including photos", "Deleted"],
+      ["Messages and contact details you shared", "Deleted"],
+      [
+        "Security and abuse-prevention logs",
+        "Kept for up to 90 days, then deleted"
+      ],
+      [
+        "Records we must keep by law, if any",
+        "Kept only as long as the law requires"
+      ]
+    ],
+    "timeTitle": "How long it takes",
+    "timeText": "We confirm your request within 3 business days and finish deletion within 30 days. We email you when it is done.",
+    "noteBold": "Want a break instead?",
+    "noteText": "Ask us to deactivate your account. Your data stays until you return."
+  },
+
+  "privacy": {
+    "title": "Privacy policy",
+    "effective": "Effective date: September 30, 2026. This policy explains what information the Ksmarting Auto app and this website collect, how we use it and the choices you have. By using Ksmarting Auto you agree to this policy.",
+    "deleteLinkText": "account deletion section",
+    "sections": [
+      {
+        "title": "Who we are",
+        "paragraphs": [
+          "Ksmarting Auto is an app that connects people who need car spare parts with people who have them. You can contact us at {email}."
+        ]
+      },
+      {
+        "title": "Information we collect",
+        "items": [
+          {
+            "label": "Account details:",
+            "text": "your name, email address, phone number and password (stored in protected form)."
+          },
+          {
+            "label": "Requests and listings:",
+            "text": "the part you want or sell, car make, model and year, condition, price, notes, the area you enter, and the photos you upload."
+          },
+          {
+            "label": "Messages:",
+            "text": "what you send to other users through the app."
+          },
+          {
+            "label": "Device and usage data:",
+            "text": "device type, app version and error logs, used to keep the app working and secure."
+          }
+        ],
+        "after": [
+          "We do not collect payment card details in the app. Buyers and sellers agree on payment between themselves."
+        ]
+      },
+      {
+        "title": "App permissions",
+        "items": [
+          {
+            "label": "Camera and photos:",
+            "text": "only to let you add pictures to a listing or request."
+          },
+          {
+            "label": "Notifications:",
+            "text": "only to tell you about replies and matches. You can turn them off in your phone settings."
+          }
+        ]
+      },
+      {
+        "title": "How we use your information",
+        "items": [
+          { "text": "To create and manage your account." },
+          {
+            "text": "To match part requests with listings and connect buyers with sellers."
+          },
+          {
+            "text": "To send you replies, matches and important service messages."
+          },
+          { "text": "To prevent fraud and abuse, and to fix problems." },
+          { "text": "To follow the law when required." }
+        ]
+      },
+      {
+        "title": "Who can see your information",
+        "items": [
+          {
+            "text": "Other users: listings, including photos, price, area and contact details you choose to show, are visible to app users. Requests are visible to sellers who reply."
+          },
+          {
+            "text": "Service providers who host our data and help run the app. They may only use it to provide their service to us."
+          },
+          { "text": "Authorities, when the law requires it." }
+        ],
+        "after": ["We do not sell your personal information."]
+      },
+      {
+        "title": "How long we keep it",
+        "paragraphs": [
+          "We keep your information while your account is active. When you delete your account, we delete your data as described in the {link}, except records we must keep by law."
+        ]
+      },
+      {
+        "title": "Your choices",
+        "items": [
+          {
+            "text": "You can view and edit your details and listings in the app."
+          },
+          { "text": "You can remove any request or listing at any time." },
+          {
+            "text": "You can ask for a copy of your data or ask us to delete your account by emailing {email}."
+          }
+        ]
+      },
+      {
+        "title": "Security",
+        "paragraphs": [
+          "We use reasonable technical measures to protect your information. No system is completely secure, so please use a strong password and do not share it. Meet other users in safe places and check parts before you pay."
+        ]
+      },
+      {
+        "title": "Children",
+        "paragraphs": [
+          "Ksmarting Auto is not meant for children under 18, and we do not knowingly collect their information. If you think a child has given us information, email us and we will delete it."
+        ]
+      },
+      {
+        "title": "Changes to this policy",
+        "paragraphs": [
+          "We may update this policy. We will change the effective date above and, for big changes, tell you in the app."
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": ["Questions about privacy? Email {email}."]
+      }
+    ]
+  },
+
+  "footer": {
+    "copyright": "© 2026 Ksmarting Auto",
+    "deleteAccount": "Delete account",
+    "privacyPolicy": "Privacy policy"
+  }
+}

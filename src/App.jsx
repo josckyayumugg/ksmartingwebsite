@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/header";
+import Header from "./components/CustomNav";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import Madefor from "./components/Madefor";
@@ -24,6 +24,14 @@ function App() {
         <Privacy />
         <Footer />
       </main>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"
+      ></script>
     </div>
   );
 }
